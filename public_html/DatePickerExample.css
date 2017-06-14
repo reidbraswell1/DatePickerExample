@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 12, 2017, 10:19:28 PM
+    Author     : reid
+*/
+h1 {
+  font-family:arial, sans-serif;
+  color:#003399;
+  border-bottom-width:3px;
+  border-bottom-color:#ffcc00;
+  border-bottom-style:solid;
+}
+
+img {
+  position:relative;
+  top:20px;
+  padding-left:10px;
+}
+
+.text {
+  font-family:arial, sans-serif;
+  color:#003399;
+  padding-right:10px;
+}
+
+.textbox {
+  border-width:1px;
+  width: 150px;
+  border-color:#ffcc00;
+  border-style:solid;
+}
+
+
+.picker {
+  position: absolute;
+  left:340px;
+  top:99px;
+  float:left;
+  width:172px;
+  border-width:1px;
+  border-color:#ffcc00;
+  border-style:solid;
+  padding-left:4px;
+  padding-top:4px;
+  padding-bottom:4px;
+  display: none;
+}
+
+.month {
+  float:left;
+  border-width:1px;
+  border-color:#ffcc00;
+  border-style:solid;
+  margin:1px;
+  width:94px;
+  padding-left:2px;
+  color:#ffcc00;
+  color:black;
+}
+
+.year {
+  float:left;
+  border-width:1px;
+  border-color:#ffcc00;
+  border-style:solid;
+  margin:1px;
+  width:74px;
+  padding-left:2px;
+  color:#ffcc00;
+  color:black;
+}
+.datelive {
+  float:left;
+  /*
+  background-image:url('datelive.gif');
+  background-repeat:repeat-x;
+  */
+  width:20px;
+  height:20px;
+  border-style:solid;
+  border-color:#ffcc00;
+  border-width:1px;
+  text-align:center;
+  color:#ffcc00;
+  color:black;
+  margin:1px;
+  text-decoration:none;
+  background-color:#ffcc00;
+}
+.datelive2 {
+  float:left;
+  /*
+  background-image:url('datelive.gif');
+  background-repeat:repeat-x;
+  */
+  width:22px;
+  height:20px;
+
+  border-bottom-style:solid;
+  border-bottom-color:black;
+  border-bottom-width:1px;
+
+  text-align:center;
+  color:black;
+  margin:1px;
+  text-decoration:none;
+  background-color:white;
+}
+
+

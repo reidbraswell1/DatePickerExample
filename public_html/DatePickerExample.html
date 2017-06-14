@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Date Picker Example</title>
+        <link rel="stylesheet" type="text/css" href="DatePickerExample.css">
+        <script src="DatePickerExample.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+        <h1>Date Picker Example</h1>
+        <div>
+            <form action="">
+                <label class="text"> Enter A Date:</label>
+                <input class="textbox" id="datebox" type="text" placeholder="MM/DD/YYYY"/>
+                <img src="/home/reid/Documents/images/calendar.jpeg" alt="Datepicker" height="42" width="42" style="" onclick="showHideCalendar('datepicker')">
+                <br>
+                <br>
+                <label class="text"> Enter A Time:</label>
+                <input class="textbox" id="timebox" type="text" placeholder="HH:MM AM"/>
+            </form>
+        </div>
+        
+        <div id="datepicker" class="picker">
+            <span id="message"></span>
+            <select id="months" class="month">
+                <option>Month</option>
+            </select>
+
+            <select id="years" class="year">
+                <option>Year</option>
+            </select>
+
+            <div id="daypicker">
+                <a class="datelive2">S</a>
+                <a class="datelive2">M</a>
+                <a class="datelive2">T</a>
+                <a class="datelive2">W</a>
+                <a class="datelive2">T</a>
+                <a class="datelive2">F</a>
+                <a class="datelive2">S</a>
+            </div>
+        </div>
+
+    <script>
+         document.getElementById("months").addEventListener("change",dateDays);
+         document.getElementById("years").addEventListener("change",dateYears);
+         window.addEventListener('load',loadSelects);
+         //document.body.addEventListener("click", clickBody);
+    </script>
+
+    </body>
+</html>
